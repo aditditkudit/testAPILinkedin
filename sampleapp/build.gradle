@@ -1,0 +1,72 @@
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 28
+    buildToolsVersion '27.0.3'
+
+    sourceSets {
+        androidTest {
+          setRoot('src/test')
+        }
+    }
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    signingConfigs {
+        sdkTest {
+            storeFile file("debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+
+        release {
+            storeFile file("debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+        }
+    }
+    buildTypes {
+        sdkTest {
+            signingConfig signingConfigs.sdkTest
+            debuggable true
+
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.release
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+    implementation project(':linkedin-sdk')
+}
+
+configurations {
+}
+
+
+dependencies {
+}
+dependencies {
+    implementation 'com.android.support:appcompat-v7:19.+'
+    androidTestImplementation('junit:junit:4.12')
+}

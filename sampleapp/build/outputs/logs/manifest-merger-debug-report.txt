@@ -1,0 +1,83 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [:linkedin-sdk] D:\IMPORTANT\Apps\MOBILEAPPS\myFast\linkedin-sdk\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:19.1.0] C:\Users\tAvs\.gradle\caches\transforms-1\files-1.1\appcompat-v7-19.1.0.aar\165be08024172311e3c1124601a47b73\AndroidManifest.xml:16:1-20:12
+INJECTED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:3:5-54
+	android:versionName
+		INJECTED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml
+		ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml
+		ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:5:5-26:19
+MERGED from [:linkedin-sdk] D:\IMPORTANT\Apps\MOBILEAPPS\myFast\linkedin-sdk\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-20
+MERGED from [:linkedin-sdk] D:\IMPORTANT\Apps\MOBILEAPPS\myFast\linkedin-sdk\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:19.1.0] C:\Users\tAvs\.gradle\caches\transforms-1\files-1.1\appcompat-v7-19.1.0.aar\165be08024172311e3c1124601a47b73\AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:appcompat-v7:19.1.0] C:\Users\tAvs\.gradle\caches\transforms-1\files-1.1\appcompat-v7-19.1.0.aar\165be08024172311e3c1124601a47b73\AndroidManifest.xml:19:5-20
+	android:label
+		ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:7:9-45
+	android:allowBackup
+		ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:6:9-35
+activity#com.linkedin.android.mobilesdksampleapp.MainActivity
+ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:9:9-17:20
+	android:label
+		ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:11:13-45
+	android:name
+		ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:10:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:12:13-16:29
+action#android.intent.action.MAIN
+ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:15:27-74
+activity#com.linkedin.android.mobilesdksampleapp.DeepLinkActivity
+ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:18:9-21:20
+	android:label
+		ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:20:13-60
+	android:name
+		ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:19:13-45
+activity#com.linkedin.android.mobilesdksampleapp.ApiActivity
+ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:22:9-25:20
+	android:label
+		ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:24:13-55
+	android:name
+		ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml:23:13-40
+uses-sdk
+INJECTED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml
+INJECTED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml
+MERGED from [:linkedin-sdk] D:\IMPORTANT\Apps\MOBILEAPPS\myFast\linkedin-sdk\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:linkedin-sdk] D:\IMPORTANT\Apps\MOBILEAPPS\myFast\linkedin-sdk\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:19.1.0] C:\Users\tAvs\.gradle\caches\transforms-1\files-1.1\appcompat-v7-19.1.0.aar\165be08024172311e3c1124601a47b73\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:appcompat-v7:19.1.0] C:\Users\tAvs\.gradle\caches\transforms-1\files-1.1\appcompat-v7-19.1.0.aar\165be08024172311e3c1124601a47b73\AndroidManifest.xml:18:5-42
+INJECTED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml
+INJECTED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml
+		ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml
+		INJECTED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml
+		ADDED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml
+		INJECTED from D:\IMPORTANT\Apps\MOBILEAPPS\myFast\sampleapp\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [:linkedin-sdk] D:\IMPORTANT\Apps\MOBILEAPPS\myFast\linkedin-sdk\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from [:linkedin-sdk] D:\IMPORTANT\Apps\MOBILEAPPS\myFast\linkedin-sdk\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:22-64
